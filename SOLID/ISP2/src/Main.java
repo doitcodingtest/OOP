@@ -3,10 +3,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
-        List<Integer> myList = new ArrayList();
-        myList.add(1);
-        System.out.println(myList.get(0));
+        Car car = new Car();
+        car.go();
+        Airplane airplane = new Airplane();
+        airplane.go();
+        airplane.fly();
 
     }
 }

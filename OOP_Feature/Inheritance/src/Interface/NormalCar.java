@@ -14,6 +14,6 @@ public class NormalCar extends Car implements AutonomousDriving {
     }
     @Override
     public void ExecuteAutonomousDriving() {
-        System.out.println("레벨2 자율주행 모드로 전환합니다.");
+        System.out.println("레벨2 자율 주행 모드로 전환합니다.");
     }
 }

@@ -20,6 +20,6 @@ public class SuperCar extends Car implements TurboMode, AutonomousDriving {
 
     @Override
     public void ExecuteTurboMode() {
-        System.out.println("레벨3 자율주행 모드로 전환합니다.");
+        System.out.println("레벨3 자율 주행 모드로 전환합니다.");
     }
 }
